@@ -10954,16 +10954,24 @@ fabric.PatternBrush = fabric.util.createClass(fabric.PencilBrush, /** @lends fab
      * Map of cursor style values for each of the object controls
      * @private
      */
-    //ne-resize
-    //nw-resize
+    //  cursorMap: [
+    //   'n-resize',
+    //   'ne-resize',
+    //   'e-resize',
+    //   'se-resize',
+    //   's-resize',
+    //   'sw-resize',
+    //   'w-resize',
+    //   'nw-resize'
+    // ],
     cursorMap: [
-      'n-resize',
       'pointer',
-      'e-resize',
-      'se-resize',
-      's-resize',
-      'sw-resize',
-      'w-resize',
+      'pointer',
+      'pointer',
+      'pointer',
+      'pointer',
+      'pointer',
+      'pointer',
       'pointer'
     ],
 

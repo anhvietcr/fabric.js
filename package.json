@@ -1,13 +1,13 @@
 {
   "name": "fabric",
   "description": "Object model for HTML5 canvas, and SVG-to-canvas parser. Backed by jsdom and node-canvas.",
-  "homepage": "http://fabricjs.com/",
+  "homepage": "https://github.com/anhvietcr/fabric.js",
   "version": "2.7.0",
-  "authors": "Juriy Zaytsev <kangax@gmail.com>",
+  "authors": "Anhvietcr <anhvietcr20@gmail.com>",
   "contributors": [
     {
-      "name": "Andrea Bogazzi",
-      "email": "andreabogazzi79@gmail.com"
+      "name": "Anhvietcr",
+      "email": "anhvietcr20@gmail.com"
     }
   ],
   "keywords": [
@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabricjs/fabric.js"
+    "url": "https://github.com/anhvietcr/fabric.js"
   },
   "bugs": {
-    "url": "https://github.com/fabricjs/fabric.js/issues"
+    "url": "https://github.com/anhvietcr/fabric.js/issues"
   },
   "license": "MIT",
   "scripts": {

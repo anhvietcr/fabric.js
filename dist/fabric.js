@@ -15055,10 +15055,10 @@ fabric.util.object.extend(fabric.StaticCanvas.prototype, /** @lends fabric.Stati
           finalMatrix = absolute ? startMatrix : multiplyMatrices(vpt, startMatrix),
           dim = this._getTransformedDimensions(),
           w = dim.x / 2, h = dim.y / 2,
-          tl = transformPoint({ x: -w, y: -h }, finalMatrix),
-          tr = transformPoint({ x: w, y: -h }, finalMatrix),
+          tl = transformPoint({ x: -w - 14, y: -h + 12 }, finalMatrix),
+          tr = transformPoint({ x: w + 14, y: -h - 12}, finalMatrix),
           bl = transformPoint({ x: -w, y: h }, finalMatrix),
-          br = transformPoint({ x: w, y: h }, finalMatrix);
+          br = transformPoint({ x: w - 12, y: h + 14}, finalMatrix);
       if (!absolute) {
         var padding = this.padding, angle = degreesToRadians(this.angle),
             cos = fabric.util.cos(angle), sin = fabric.util.sin(angle),

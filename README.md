@@ -1,3 +1,5 @@
+# This repos fork & modify for my project. Thank to [FabricJS](https://github.com/fabricjs/fabric.js)
+
 ### Fabric
 
 <!-- chat, support -->
